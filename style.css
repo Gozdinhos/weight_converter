@@ -31,12 +31,14 @@ input{
   flex-shrink: 0;
 }
 
-::placeholder {
+:: -webkit-input-placeholder {
   color: #726255;
   font-size: 20vw;
   flex-shrink: 0;
   font-weight: 500;
   }
+
+
 
 input[type="number"] {
 -moz-appearance: textfield;
